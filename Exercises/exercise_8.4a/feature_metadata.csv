@@ -1,0 +1,51 @@
+feature_name,category,description,type
+length,Lexical,Length of domain name (without TLD),numeric
+length_total,Lexical,Total length including TLD,numeric
+digit_count,Lexical,Number of digit characters,numeric
+digit_ratio,Lexical,Ratio of digits to total characters,numeric
+vowel_count,Lexical,Number of vowel characters,numeric
+vowel_ratio,Lexical,Ratio of vowels to total characters,numeric
+consonant_count,Lexical,Number of consonant characters,numeric
+consonant_ratio,Lexical,Ratio of consonants to total characters,numeric
+entropy,Lexical,Shannon entropy (randomness measure),numeric
+hyphen_count,Lexical,Number of hyphens,numeric
+underscore_count,Lexical,Number of underscores,numeric
+special_char_ratio,Lexical,Ratio of special characters,numeric
+uppercase_count,Lexical,Number of uppercase letters,numeric
+uppercase_ratio,Lexical,Ratio of uppercase letters,numeric
+max_consecutive_digits,Lexical,Maximum consecutive digits,numeric
+max_consecutive_consonants,Lexical,Maximum consecutive consonants,numeric
+pronounceability,Linguistic,How pronounceable the domain is (0-1),numeric
+vowel_consonant_transitions,Linguistic,Number of vowel-consonant transitions,numeric
+vc_transition_ratio,Linguistic,Ratio of V-C transitions,numeric
+common_bigram_count,Linguistic,Number of common English bigrams,numeric
+common_bigram_ratio,Linguistic,Ratio of common bigrams,numeric
+common_trigram_count,Linguistic,Number of common English trigrams,numeric
+common_trigram_ratio,Linguistic,Ratio of common trigrams,numeric
+unique_bigram_ratio,Linguistic,Ratio of unique bigrams,numeric
+unique_trigram_ratio,Linguistic,Ratio of unique trigrams,numeric
+repeating_patterns,Linguistic,Number of repeating character patterns,numeric
+char_freq_mean,Statistical,Mean character frequency,numeric
+char_freq_std,Statistical,Standard deviation of character frequency,numeric
+char_freq_variance,Statistical,Variance of character frequency,numeric
+unique_char_ratio,Statistical,Ratio of unique characters,numeric
+bigram_entropy,Statistical,Entropy of bigram distribution,numeric
+trigram_entropy,Statistical,Entropy of trigram distribution,numeric
+char_freq_skewness,Statistical,Skewness of character frequency distribution,numeric
+char_freq_kurtosis,Statistical,Kurtosis of character frequency distribution,numeric
+randomness_score,Statistical,Overall randomness score (0-1),numeric
+avg_char_position,Statistical,Average alphabetic position of characters,numeric
+char_position_std,Statistical,Std dev of character positions,numeric
+tld_is_common,DNS,Whether TLD is common (1/0),numeric
+tld_is_suspicious,DNS,Whether TLD is suspicious (1/0),numeric
+tld_length,DNS,Length of TLD,numeric
+subdomain_count,DNS,Number of subdomains,numeric
+has_subdomain,DNS,Whether domain has subdomain (1/0),numeric
+total_labels,DNS,Total number of DNS labels,numeric
+avg_label_length,DNS,Average length of DNS labels,numeric
+max_label_length,DNS,Maximum label length,numeric
+min_label_length,DNS,Minimum label length,numeric
+domain_name_length,DNS,Length of primary domain name,numeric
+has_numerical_suffix,DNS,Whether domain ends with digit (1/0),numeric
+dot_count,DNS,Number of dots in full domain,numeric
+dot_density,DNS,Ratio of dots to total length,numeric
